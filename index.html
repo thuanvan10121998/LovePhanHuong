@@ -1,56 +1,37 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phan Hương</title>
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <link rel="stylesheet" href="canvas.css" />
-    <link rel="stylesheet" href="present.css" />
-    <link rel="stylesheet" href="card.css" />
-    <link rel="stylesheet" href="index.css" />
-    <script src="jquery.js"></script>
-  </head>
-  <body>
-    <div class="parent">
-      <canvas id="canvas"></canvas>
-      <section class="above-fold">
-        <div class="wrap-present">
-          <div class="present-box" id="present">
-            <div class="present">
-              <div class="img-wrap" id="present-image"></div>
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quà 8/3</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <audio id="birthday-music" autoplay loop>
+    <source src="/assets/music/NoiNayCoAnh-SonTungMTP.mp3" type="audio/mpeg">
+  </audio>
+  <div class="container">
+    <div class="row">
+      <div class="box-wrapper">
+        <div class="box">
+          <div class="box-body">
+            <img class="img" src="capypara.jpg">
+            <div class="box-lid">
+              <div class="box-bowtie"></div>
             </div>
-            <div class="side front"></div>
-            <div class="side back"></div>
-            <div class="side left"></div>
-            <div class="side right"></div>
-            <div class="side top">
-              <span class="to">
-                <span class="name" id="nametag"> </span>
-              </span>
-            </div>
-            <div class="side bottom"></div>
           </div>
         </div>
-        <p class="info-text">Click to Open</p>
-      </section>
-
-      <div id="card">
-        <h4 class="title-card">💘little coder💘</h4>
-
-        <img src="capypara.jpg" class="honey" />
-
-        <h4 class="content-card">
-          Happy 8/3 chúc Hương và những người phụ nữ quanh em luôn vui vẻ,xinh đẹp nhé ❤.💘
-        </h4>
       </div>
     </div>
-    <audio autoplay loop id="playAudio">
-      <source src="music.mp3" />
-    </audio>
-  </body>
-  <script src="config.js"></script>
-  <script src="canvas.js"></script>
-  <script src="present.js"></script>
-  <script></script>
+    <div class="card">
+      <h2>Chúc mừng ngày 8/3! 💖</h2>
+      <p>Chúc bạn có một ngày ngập tràn hạnh phúc, yêu thương và niềm vui!</p>
+      <img class="card-img" src="ph11.jpg" alt="Flower">
+    </div>
+  </div>
+</body>
+
 </html>
