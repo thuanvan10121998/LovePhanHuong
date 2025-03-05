@@ -2,13 +2,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const boxBody = document.querySelector(".box-body");
   const container = document.querySelector(".container");
 
-  boxBody.addEventListener("mouseenter", function () {
+  // boxBody.addEventListener("mouseenter", function () {
     createFlowers();
-  });
+  // });
 
-  boxBody.addEventListener("mouseleave", function () {
-    removeFlowers();
-  });
+  // boxBody.addEventListener("mouseleave", function () {
+  //   removeFlowers();
+  // });
 
   function createFlowers() {
     const flowerTypes = ["🌸", "🌺"];
