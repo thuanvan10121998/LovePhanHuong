@@ -36,3 +36,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const boxBody = document.querySelector(".box-body");
+  const container = document.querySelector(".container");
+
+  boxBody.addEventListener("click", function () {
+      this.classList.toggle("active");
+      container.classList.toggle("show-card");
+  });
+});
+
+function playAudio() {
+  let audio = document.getElementById("myAudio");
+  audio.muted = false;
+  audio.play().catch(error => console.log("Autoplay bị chặn:", error));
+  document.body.onclick = null; // Chỉ chạy một lần
+}
