@@ -214,7 +214,7 @@ p {
 }
 
 .card-img {
-    width: 877px;
+    width: 87px;
     height: auto; /* Giữ nguyên tỷ lệ */
     object-fit: cover;
     clip-path: path("M50 15 C20 -10, -20 40, 50 90 C120 40, 80 -10, 50 15 Z");
